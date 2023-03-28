@@ -7,6 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       title: 'My First Flutter Project',
       theme: ThemeData(
@@ -14,10 +15,10 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My First Flutter Project'),
+          title: const Text('My First Flutter Project'),
         ),
-        body: Center(
-          child: Text('Hello World!'),
+        body: const Center(
+          child: Text('Hello from Maine!'),
         ),
       ),
     );
